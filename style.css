@@ -1,0 +1,380 @@
+* {
+    padding: 0;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* layout */
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+}
+
+/* menubar*/
+.logo {
+    float: left;
+    font-size: 20px;
+}
+
+.menu ul li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    float: right;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: #6f7679;
+
+}
+
+/*picture box*/
+
+.start {
+    color: #98a2a6;
+    padding-left: 40px;
+    padding-top: 150px;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(https://www.w3schools.com/w3images/mac.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+
+.para {
+    font-family: ;
+    color: grey;
+    font-size: 20px;
+}
+
+.learn {
+    color: black;
+    font-size: 20px;
+    background: #d2aeb0;
+    width: 250px;
+    padding: 20px;
+    margin-top: 100px;
+
+}
+
+/*about company*/
+
+.about-company {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 100px;
+}
+
+.key {
+    font-size: 18px;
+}
+
+.responsive {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 25%;
+    line-height: 1.8;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    font-size: 15px;
+    padding: 0 50px;
+}
+
+i {
+    margin-bottom: 25px;
+}
+
+.features {
+    display: flex;
+    margin-top: 25px;
+}
+
+/*third part*/
+.we-know {
+
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    background-color: #dcdced;
+}
+
+.first {
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 70px;
+
+}
+
+.photo img {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+
+
+}
+
+.first a {
+    text-decoration: none;
+    background: black;
+    padding: 15px 15px;
+    color: white;
+}
+
+/*4th part*/
+.information {
+    margin-left: 50px;
+    display: flex;
+
+}
+
+.profils {
+    width: 25%;
+    box-shadow: 5px 5px 5px 5px #f3f3f9;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.profils img {
+    width: 100%;
+    margin: auto;
+}
+
+.profils p {
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+
+
+}
+
+.profils a {
+    text-decoration: none;
+    background-color: #e3e4f8;
+    padding: 10px 100px;
+    margin-left: 20px;
+    color: black;
+
+}
+
+/*5th part projects number*/
+.projects {
+    display: flex;
+    width: 100%;
+    padding-left: 150px;
+    background-color: #6f7679;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-top: 150px;
+}
+
+.partners {
+    width: 25%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+/* 6th part our work*/
+.our-work {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.picture-work {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.picture-work img {
+    padding-left: 20px;
+    width: 100%;
+}
+
+.picture-work img:hover {
+    color: gray;
+    opacity: .8;
+}
+
+/* 7th part our skil*/
+.our-skill {
+    display: flex;
+    background: #c3c3ca;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.skills {
+    width: 50%;
+    padding-right: 50px;
+
+}
+
+.skills-2 {
+    letter-spacing: 4px;
+    font-size: 15px;
+
+}
+
+.pricing {
+    text-align: center;
+    background: #6f7679;
+    margin-top: 0;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+
+
+
+
+/* 8th part pricing*/
+.plan {
+    width: 33.33%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+}
+
+.plans {
+    width: 100%;
+    display: flex;
+}
+
+.plan ul {
+    border: 1px solid white;
+
+}
+
+.plan li {
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+}
+
+li.heading {
+    background-color: black;
+    padding: 30px;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+
+}
+
+li.btn {
+    background: #98a2a6;
+    width: 100%;
+
+}
+
+.plan a {
+    text-decoration: none;
+    background: green;
+    color: white;
+    padding: 20px;
+
+
+}
+
+li.price {
+    font-size: 40px;
+}
+
+.price small {
+    font-size: 18px;
+}
+
+li.heading-2 {
+    background-color: orangered;
+    padding: 50px;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+/*9th part contact*/
+.contact {
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.contact-info {
+    background-color: #c3c3ca;
+    margin-top: 0;
+
+}
+
+.contact-2 {
+    padding-left: 20px;
+}
+
+.form {
+    padding-left: 20px;
+}
+
+.form-type {
+    padding: 10px;
+    width: 90%;
+
+}
+
+.submit-btn {
+    background-color: black;
+    color: bisque;
+}
+
+.form button:hover {
+    background-color: #98a2a6;
+    color: aquamarine;
+}
+
+.cover {
+    filter: grayscale(75%);
+}
+
+.last {
+    text-align: center;
+    background-color: #d2aeb0;
+    padding: 40px 0;
+    height: 202px;
+
+}
+
+.last a {
+    text-decoration: none;
+    background-color: #6f7679;
+    color: white;
+    padding: 10px;
+}
